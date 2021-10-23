@@ -1,0 +1,16 @@
+name = "url-shortner"
+type = "webpack"
+
+account_id = "22711dba22bb98182bbb8e0dba3d0463"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2021-10-23"
+kv_namespaces = [ 
+	 { binding = "SHORT", id = "7e844a5edbff45bf88468d64ef989dde",  preview_id = "4a2526c9200e48cb9b75a22bedf47c7b" }
+	
+]
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
